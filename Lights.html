@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lights.css"/>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Light Key</title>
+</head>
+<body background="css3-blue-bg.jpg">
+    <div class="topNav">
+        <a href="Index.html">Home</a>
+        <a href="About.html">About Game</a>
+        <a class="active"  href="Lights.html">Light Switch</a>
+        <a href="LightApplication.html">Light Application</a>
+    </div>
+
+    <div class="bar">Press a button to toggle the light on or off!</div>
+
+<table>
+    <tr>
+        <td class="field" bgcolor="red" id="1"></td>
+        <td class="field" bgcolor="blue" id="4"></td>
+    </tr>
+    <tr>
+        <td class="field" bgcolor="yellow" id="2"></td>
+        <td class="field" bgcolor="green" id="5"></td>
+    </tr>
+    <tr>
+        <td class="field" bgcolor="#ffc0cb" id="3"></td>
+        <td class="field" bgcolor="purple" id="6"></td>
+    </tr>
+</table>
+
+
+<div class="buttons">
+    <button class="indexButtons" onclick="start()">All On</button>
+    <button class="indexButtons" onclick="reset()">All Off</button>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="lights.js"></script>
+</body>
+</html>
