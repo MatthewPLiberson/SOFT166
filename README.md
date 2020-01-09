@@ -1,6 +1,6 @@
 # SOFT166 Lights Application
 
-Youtube Video
+# Youtube Video
 https://youtu.be/zfzOcGz03Ag
 
 # Index Page
@@ -15,4 +15,3 @@ https://youtu.be/zfzOcGz03Ag
 # Light Application Page (Simon Says)
 ![alt text](https://i.imgur.com/Hrzf8JT.png)
 
-# 
