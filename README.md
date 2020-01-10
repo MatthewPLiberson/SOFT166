@@ -8,7 +8,7 @@ any of these buttons will take you to the corresponding page. The navigation bar
 and a CSS style applied. Included in thee index page are extra buttons to take you to the light switch and
 light application pages. I included these because I wanted to advertise these games more.
 
-The about page includes a small description about the project, hosted in a styled <div> tag
+The about page includes a small description about the project, hosted in a styled div tag
   
 The light switch application has a table with 6 <td> fields. When clicking one of the fields the
 corresponding light in SMB109 will toggle on with the same colour. You can also turn all the lights on
